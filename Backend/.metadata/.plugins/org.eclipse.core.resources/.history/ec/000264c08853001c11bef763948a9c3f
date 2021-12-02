@@ -1,0 +1,9 @@
+package com.cart.dto;
+
+public class CartDto2 {
+
+	private Integer id;
+    private Integer quantity;
+    private double price;
+    private FoodItemDto product;
+}

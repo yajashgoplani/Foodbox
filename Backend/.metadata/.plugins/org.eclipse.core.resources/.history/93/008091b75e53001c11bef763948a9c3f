@@ -1,0 +1,15 @@
+package com.cart.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cart.dao.CartDao;
+import com.cart.dto.FoodItemDto;
+@Service
+public class CartService {
+
+	@Autowired
+	CartDao dao;
+	
+	FoodItemDto foodItemDto[]=restTemplate.getForObject("http://localhost:8082/foodbox/getAllFoods",FoodItemDto[].class);
+}

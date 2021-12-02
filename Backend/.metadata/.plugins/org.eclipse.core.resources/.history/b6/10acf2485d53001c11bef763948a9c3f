@@ -1,0 +1,22 @@
+package com.cart.bean;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import com.cart.dto.FoodItemDto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Cart {
+	@Id
+	private long id;
+	private int quantity;
+	private float price;
+	private FoodItemDto foodItem;
+}

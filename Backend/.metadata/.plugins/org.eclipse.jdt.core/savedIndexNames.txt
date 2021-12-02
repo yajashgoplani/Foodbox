@@ -1,0 +1,18 @@
+INDEX VERSION 1.131+A:\FoodBox\Backend\.metadata\.plugins\org.eclipse.jdt.core
+3294077876.index
+2536379149.index
+2260620974.index
+4019273408.index
+1171857312.index
+287736444.index
+2560680049.index
+3000590913.index
+4186246570.index
+1140850559.index
+2833653983.index
+1862440442.index
+2546966631.index
+542433535.index
+3385893120.index
+3936789478.index
+29043741.index
